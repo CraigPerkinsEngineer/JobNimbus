@@ -15,7 +15,7 @@ namespace JobNimbus
             {
                 Console.WriteLine("Enter your brackets: ");
                 var input = Console.ReadLine();
-                var response = doBracketsMatch(input);
+                var response = DoBracketsMatch(input);
 
                 if (response)
                 {
@@ -31,7 +31,7 @@ namespace JobNimbus
             }
         }
 
-        public static bool doBracketsMatch(string input)
+        public static bool DoBracketsMatch(string input)
         {
             var stack = new Stack<Char>();
 

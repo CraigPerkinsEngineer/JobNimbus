@@ -13,7 +13,7 @@ namespace JNUnitTests
             var input = "{}";
 
             // Act
-            var result = Brackets.doBracketsMatch(input);
+            var result = Brackets.DoBracketsMatch(input);
 
             // Assert
             Assert.IsTrue(result);
@@ -26,7 +26,7 @@ namespace JNUnitTests
             var input = "{{{}}}";
 
             // Act
-            var result = Brackets.doBracketsMatch(input);
+            var result = Brackets.DoBracketsMatch(input);
 
             // Assert
             Assert.IsTrue(result);
@@ -39,7 +39,7 @@ namespace JNUnitTests
             var input = "";
 
             // Act
-            var result = Brackets.doBracketsMatch(input);
+            var result = Brackets.DoBracketsMatch(input);
 
             // Assert
             Assert.IsTrue(result);
@@ -52,7 +52,7 @@ namespace JNUnitTests
             var input = "}{";
 
             // Act
-            var result = Brackets.doBracketsMatch(input);
+            var result = Brackets.DoBracketsMatch(input);
 
             // Assert
             Assert.IsFalse(result);
@@ -65,7 +65,7 @@ namespace JNUnitTests
             var input = "{{}";
 
             // Act
-            var result = Brackets.doBracketsMatch(input);
+            var result = Brackets.DoBracketsMatch(input);
 
             // Assert
             Assert.IsFalse(result);
