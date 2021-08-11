@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobNimbus", "JobNimbus\JobNimbus.csproj", "{8AD72673-11B3-4DDD-A71F-548DF8A4B990}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JNUnitTests", "JNUnitTests\JNUnitTests.csproj", "{9C20850B-765B-442B-A23D-6E0D69F0A903}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8AD72673-11B3-4DDD-A71F-548DF8A4B990}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AD72673-11B3-4DDD-A71F-548DF8A4B990}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AD72673-11B3-4DDD-A71F-548DF8A4B990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C20850B-765B-442B-A23D-6E0D69F0A903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C20850B-765B-442B-A23D-6E0D69F0A903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C20850B-765B-442B-A23D-6E0D69F0A903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C20850B-765B-442B-A23D-6E0D69F0A903}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
